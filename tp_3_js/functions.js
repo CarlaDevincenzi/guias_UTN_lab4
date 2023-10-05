@@ -12,6 +12,20 @@ function deleteRow() {
     tabla.deleteRow(filas - 1);
 }
 
+function highlight() {
+    const spans = document.querySelectorAll("span.myClass");
+    spans.forEach(f => f.classList.add('highlighted'));    
+}
+
+
+    let p1 = document.querySelector("#myId");
+    p1.innerText = "HELLO WORLD!"
+
+    let p2 = document.querySelectorAll(".test");
+    p2[0].innerText += " Hello World!";
+
+
+
 // const algo = function() {
 //     console.log('Hola Carla!');
 // }

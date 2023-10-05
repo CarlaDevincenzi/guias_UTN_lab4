@@ -10,6 +10,7 @@
     border: 1px solid black;
     }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <input type="button" onclick="insertRow()" value="Insert row">
@@ -21,6 +22,21 @@
             <th>Header 2</th>
         </tr>
     </table>
+    <br><br>
+<div id="3_resalta_span">
+    <input type="button" id="highlight" onclick="highlight()" value="Highlight words">
+    <br><br>
+    <p>
+        Lorem <span class="myClass">ipsum</span> dolor sit <span class="myClass">amet</span>, consectetur adipiscing
+        elit, sed do eiusmod tempor <span class="myClass">incididunt</span>ut labore et dolore
+        <span class="myClass">magna</span> aliqua.
+    </p>
+</div>
+<div id="ejercicio1y2">
+    <p id="myId"></p>
+    <p class="test">Primer parrafo: </p>
+    <p class="test">Segundo parrafo: </p>
+</div>
 
     <script src="functions.js"></script>
     
